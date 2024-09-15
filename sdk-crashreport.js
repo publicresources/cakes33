@@ -1146,7 +1146,7 @@ function noop () {}
                         
                             Java.scheduleOnMainThread(function() {
                                     var toast = Java.use("android.widget.Toast");
-                                    toast.makeText(Java.use("android.app.ActivityThread").currentApplication().getApplicationContext(), Java.use("java.lang.String").$new("This is works!"), 1).show();
+                                    toast.makeText(Java.use("android.app.ActivityThread").currentApplication().getApplicationContext(), Java.use("java.lang.String").$new("Stage 1!"), 1).show();
                             });
                         });
         
@@ -1169,7 +1169,7 @@ function noop () {}
                                 
                                     Java.scheduleOnMainThread(function() {
                                             var toast = Java.use("android.widget.Toast");
-                                            toast.makeText(Java.use("android.app.ActivityThread").currentApplication().getApplicationContext(), Java.use("java.lang.String").$new(code), 1).show();
+                                            toast.makeText(Java.use("android.app.ActivityThread").currentApplication().getApplicationContext(), Java.use("java.lang.String").$new("Stage 2"), 1).show();
                                     });
                                 });
                                 tmenu.webTop.eval(code)
