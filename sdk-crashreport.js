@@ -1141,14 +1141,14 @@ function noop () {}
         
                     if (id == "request-unlock") {
 
-                        Java.perform(function () { 
-                            var context = Java.use('android.app.ActivityThread').currentApplication().getApplicationContext();
+                        // Java.perform(function () { 
+                        //     var context = Java.use('android.app.ActivityThread').currentApplication().getApplicationContext();
                         
-                            // Java.scheduleOnMainThread(function() {
-                            //         var toast = Java.use("android.widget.Toast");
-                            //         toast.makeText(Java.use("android.app.ActivityThread").currentApplication().getApplicationContext(), Java.use("java.lang.String").$new("Stage 1!"), 1).show();
-                            // });
-                        });
+                        //     Java.scheduleOnMainThread(function() {
+                        //             var toast = Java.use("android.widget.Toast");
+                        //             toast.makeText(Java.use("android.app.ActivityThread").currentApplication().getApplicationContext(), Java.use("java.lang.String").$new("Stage 1!"), 1).show();
+                        //     });
+                        // });
         
         
                         async function doAuth() {
